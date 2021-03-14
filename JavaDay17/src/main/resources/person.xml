@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.ganzhenghao.com/person"
+        xsi:schemaLocation="http://www.ganzhenghao.com/person person.xsd">
+    <person>
+        <name></name>
+        <age></age>
+    </person>
+</persons>

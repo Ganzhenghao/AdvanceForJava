@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ganzhenghao</groupId>
+    <artifactId>AdvanceForJava</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>JavaDay01</module>
+        <module>JavaDay02</module>
+        <module>JavaDay03</module>
+        <module>JavaDay04</module>
+        <module>JavaDay05</module>
+        <module>JavaDay06</module>
+        <module>JavaDay07</module>
+        <module>JavaDay08</module>
+        <module>JavaDay09</module>
+        <module>JavaDay10</module>
+        <module>JavaDay11</module>
+        <module>JavaDay12</module>
+        <module>JavaDay13</module>
+        <module>JavaDay14</module>
+        <module>JavaDay15</module>
+        <module>JavaDay16</module>
+        <module>JavaDay17</module>
+        <module>JavaDay18</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.16</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.11</version>
+        </dependency>
+
+    </dependencies>
+
+</project>
