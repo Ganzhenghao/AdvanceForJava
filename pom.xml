@@ -27,6 +27,7 @@
         <module>JavaDay16</module>
         <module>JavaDay17</module>
         <module>JavaDay18</module>
+        <module>threadlocal</module>
     </modules>
 
     <properties>
