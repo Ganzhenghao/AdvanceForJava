@@ -39,6 +39,8 @@ public class ThreadPoolStudy {
                 5, 60,
                 TimeUnit.SECONDS, new ArrayBlockingQueue<>(10),
                 Executors.defaultThreadFactory(), new ThreadPoolExecutor.AbortPolicy());
+
+
         pool(threadPoolExecutor);
     }
 

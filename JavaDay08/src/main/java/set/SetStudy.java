@@ -63,5 +63,32 @@ public class SetStudy {
         System.out.println(students);
     }
 
+    @Test
+    public void testComparator() {
+
+        Student student = new Student("张三", 19);
+        Student student1 = new Student("李四", 17);
+        Student student2 = new Student("王五", 16);
+        Student student3 = new Student("赵六", 20);
+
+        ArrayList<Student> list = new ArrayList<>();
+        list.add(student );
+        list.add(student1);
+        list.add(student2);
+        list.add(student3);
+
+        Collections.sort(list, (o1, o2) -> {
+            System.out.println("o1 = " + o1);
+            System.out.println("o2 = " + o2);
+            System.out.println(o1.getAge() - o2.getAge());
+            return o1.getAge() - o2.getAge();
+        });
+
+        System.out.println(list);
+
+    }
+
+
+
 
 }
